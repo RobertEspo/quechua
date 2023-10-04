@@ -1,7 +1,25 @@
-﻿suffix,meaning,example
-rí,rit,here is an example of a sentence
-pis,pis,here is an example of a sentence
-pis… -lla-taq,pisllataq,here is an example of a sentence
-taq,taq,here is an example of a sentence
-qa,qaqa,here is an example of a sentence
-lla,lalalala,here is an example of a sentence
+﻿suffix,meaning,quechua,english,conjugation,chapter_number,deck_number
+-rí,and what about,waliqlla kachkani. Qamrí?,I'm just fine. And you?,0,1,1
+-pis… -lla-taq,and X too,paypis waliqllataq.,"he is just fine, too.",0,1,1
+-taq,question tag,imataq sutiyki?,what's your name?,0,1,1
+-qa,topic marker,sutinqa Juan.,his name is Juan.,0,1,1
+-lla,softens/limits force,waliqlla kachkani.,I'm just fine.,0,1,1
+-ni,first person singular present tense,kachkani,I am,1,1,1
+-nki,second person singular present tense,kachkanki,you are,1,1,1
+-n,third person singular present tense,kachkan,he is,1,1,1
+-chu,absolute interrogative marker (yes/no questions),pay llaqta warmichu?,is she a town woman?,0,2,2
+-chu… -chu,either… or,Juanchu Manuelchu?,is it Juan or Manuel?,0,2,2
+-pis… -pis,both… and,mamaypis tataypis,both mom and dad,0,2,2
+-chka,present progressive aspect,ñuqa ñawirichkani.,I'm reading,1,2,2
+mana… -chu,negation,kayqa mana ch'ulluchu.,this is not a knitted hat.,0,3,3
+-taq,"coordinating suffix, refers back to previous idea",imillaqa waliqlla kachkan. // lluqallarí? // lluqallapis waliqllataq.,"the young girl is just fine. // and the young boy? // and the young boy is just fine, too.",0,3,3
+-ta,object marker,Imatataq ruwachkanki?,what are you doing?,0,4,4
+-pi,means of transport,chakillapi jamuyku.,we just came by foot.,0,5,5
+-pi… taq,"also, inclusion","payqa San Pedromanta, ñuqapis San pedrollamantataq kani.","she's from San Pedro, and I'm from San Pedro, too.",0,5,5
+-taq,"whereas, contrast","payqa San Pedromanta, ñuqa La Pazmanta.","she's from San Pedro, whereas I'm from La Paz.",0,5,5
+-yku,first person plural exclusive present tense,ñuqayku Perusuyumanta kayku.,we're from Peru.,1,5,5
+-nkichik,second person plural present tense,machkhataq jamunkichik?,how many of you have come?,1,5,5
+-kuna,plural,wallpakuna.,chickens.,0,5,6
+-pi,mode of speaking,aymarapi parlanku.,they speak Aymara.,0,5,6
+-pi,period of time,kimsa díapi chayamuyku.,we (exclusive) arrive in three days.,0,5,6
+-nku,third person plural present tense,maymantataq kanku?,where are they from?,1,5,6

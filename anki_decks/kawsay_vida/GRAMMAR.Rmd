@@ -14,9 +14,55 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r table, include=FALSE}
+```{r suffixes, include=FALSE}
+library(here)
 library(knitr)
+library(tidyverse)
+library(purrr)
+library(vctrs)
 
+all_suffixes <- read.csv(here("anki_decks","kawsay_vida","suffixes.csv"))
+
+suffixes <- all_suffixes %>%
+  filter(
+    conjugation == "0"
+  ) %>%
+  select(
+    -(conjugation:chapter_number)
+  )
+
+conjugations <- all_suffixes %>%
+  filter(
+    conjugation == "1"
+  ) %>%
+  select(
+    -(conjugation:chapter_number)
+  )
+
+suffix_dfs <- list()
+
+for(i in unique(suffixes$deck_number)) {
+  output <- paste("suffixes", i, sep = ".")
+  assign(output, suffixes[suffixes$deck_number==i,])
+  suffix_dfs[[i]] <- output
+  count <- i
+}
+
+suffix_dfs <- lapply(suffix_dfs, function(x) {
+  suffixes.x <- get(x) %>% select(-deck_number)})
+
+conjugation_dfs <- list()
+
+for(i in unique(conjugations$deck_number)) {
+  output <- paste("conjugations", i, sep = ".")
+  assign(output, conjugations[conjugations$deck_number==i,])
+  conjugation_dfs[[i]] <- output
+}
+
+conjugation_dfs <- list_drop_empty(conjugation_dfs)
+
+conjugation_dfs <- lapply(conjugation_dfs, function(y) {
+  conjugation.y <- get(y) %>% select(-deck_number)})
 ```
 
 
@@ -38,107 +84,120 @@ library(knitr)
 
 ### Suffixes
 
-```{r suffixes, include=FALSE}
-library(here)
-library(knitr)
-suffixes_1 = read.csv(here("anki_decks","kawsay_vida","suffixes.csv"))
+```{r suffixes-one, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[1]],
+             row.names = FALSE)
 ```
-
-```{r suffixesprinted, include=TRUE,echo=FALSE}
-knitr::kable(suffixes_1)
-```
-
-	-rí	=	and what about X?
-	-pis	=	also
-	-pis... -lla-taq	= and X too
-	-taq	=	question tag
-	-qa	=	topic marker
-	-lla	=	softens/limits force
 
 ### Conjugations
-	-ni	=	present tense first person singular.
-	-nki	=	present tense second person singular.
-	-n	=	present tense third person singular.
+```{r conjugations-one, include=TRUE,echo=FALSE}
+knitr::kable(conjugation_dfs[[1]],
+             row.names = FALSE)
+```
 
-# CHAPTER TWO
+# Chapter Two
 
-## COMMUNICATION GOALS:
+## Communication Goals
 Ask who someone is.
+
 Talk and ask about family members.
 
-## GRAMMAR GOALS
+## Grammar Goals
 Interrogative "pi" (who)
+
 First, second, and third person possessive suffixes.
+
 Present continous aspect conjugations.
 
-### SUFFIXES
-	-chu	=	absolute interrogative marker (yes/no question)
-	-chu... -chu	=	either... or
-	-pis... -pis	=	both... and
+### Suffixes
+```{r suffixes-two, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[2]],
+             row.names = FALSE)
+```
 
-### CONJUGATIONS
-	-chka	=	present progressive aspect conjugation
+### Conjugations
+```{r conjugations-two, include=TRUE,echo=FALSE}
+knitr::kable(conjugation_dfs[[2]],
+             row.names = FALSE)
+```
 
-# CHAPTER THREE
+# Chapter Three
 
-## COMMUNICATION GOALS
+## Communication Goals
 Ask people what a certain thing is.
 
-## GRAMMAR GOALS
+## Grammar
 Demonstrative adjectives (kay, chay, jaqay).
+
 Form negative (mana... -chu).
 
-### SUFFIXES
-	mana... -chu	=	negation
-	-taq	=	coordinating suffix, refers back to previous idea
+### Suffixes
+```{r suffixes-three, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[3]],
+             row.names = FALSE)
+```
 
-# CHAPTER FOUR
+# Chapter Four
 
-## COMMUNICATION GOALS
+## Communication Goals
 Ask someone what they are doing.
+
 Tell someone what you are doing e.g. daily tasks.
 
-## GRAMMAR GOALS
+## Grammar Goals
 Form subject-object-verb sentences.
 
-### SUFFIXES
-	-ta	=	object marker
+### Suffixes
+```{r suffixes-four, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[4]],
+             row.names = FALSE)
+```
 
-# CHAPTER FIVE (A)
+# Chapter Five (A)
 
-## COMMUNICATION GOALS
+## Communication Goals
 Ask someone where they come/are coming from.
+
 Ask how/by what method they traveled from somewhere.
 
-## GRAMMAR GOALS
+## Grammar Goals
 First person (exclusive) plural and second person plural present tense conjugations.
+
 Interrogative "imapi" (how/by what means of transport, lit. "in what").
 
-### SUFFIXES
-	-pi	=	"in"/"by"
-			=	means of transport (e.g. autopichu jamunkichik ~ you came by car)
-	-pis... taq	=	also, inclusion (e.g. payqa San Pedromanta, ñuqapis San Pedrollamantataq kani ~ she is from San Pedro, and I am from San Pedro, too)
-	-taq	=	whereas, contrast (e.g. payqa La Pazmanta, ñuqataq San Pedromanta ~ she's from La Paz, whereas I'm from San Pedro)
+### Suffixes
+```{r suffixes-five, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[5]],
+             row.names = FALSE)
+```
 
-### CONJUGATIONS
-	-yku	=	present tense we (exclusive)
-	-nkichik	=	present tense you (plural)
+### Conjugations
+```{r conjugations-three, include=TRUE,echo=FALSE}
+knitr::kable(conjugation_dfs[[3]],
+             row.names = FALSE)
+```
 
 
-# CHAPTER FIVE (B)
+# Chapter Five (B)
 
-## COMMUNICATION GOALS
+## Communication Goals
 Ask how many of something there is.
 
-## GRAMMAR GOALS
+## Grammar Goals
 Third person plural present tense conjugation.
+
 Existential "kan".
+
 Interrogative "machkha" (how many)
 
-### SUFFIXES
-	-kuna	=	plural marker
-	-pi	=	"in"/"by"
-			=	mode of speaking (e.g. aymarapi parlanku ~ they speak in Aymara)
-			=	period of time (e.g. kimsa díapi chayamuyku ~ we [exclusive] arrive in three days)
-### CONJUGATIONS
-	-nku	=	present tense they
+### Suffixes
+```{r suffixes-six, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[6]],
+             row.names = FALSE)
+```
+
+### Conjugations
+```{r conjugations-four, include=TRUE,echo=FALSE}
+knitr::kable(conjugation_dfs[[4]],
+             row.names = FALSE)
+```

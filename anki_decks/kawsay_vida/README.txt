@@ -4,7 +4,7 @@ Chapters that have a lot of vocabulary or grammar points are divided into multip
 
 Not all vocabulary taught in the book is documented in these decks. For example, there are a lot of Andes-specific food and clothing that is taught in the book, which is not currently taught in this deck. In the future, I may add decks for those specific cultural items with pictures. The reason for this is (1) cultural items are difficult to teach, (2) they have little use outside of the Andes, and (3) the decks would double or triple in size, which would make learning much more difficult.
 
-The document GRAMMAR.txt documents the grammar points and general communication goals taught in each chapter/file.
+The document GRAMMAR.rmd documents the grammar points and general communication goals taught in each chapter/file.
 
 FUTURE GOALS:
 >Add decks with cultural items (food, clothes, architecture, etc.)
