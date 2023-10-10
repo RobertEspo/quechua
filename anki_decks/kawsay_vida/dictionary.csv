@@ -1,0 +1,34 @@
+﻿quechua,english,quechua_example,english_example,part_of_speech,chapter,deck
+imaynalla,how,imaynalla kachkanki?,how are you?,interrogative,1,1
+waliq,good,waliqlla kachkani.,I'm good.,adverb,1,1
+qam,you,qamrí?,and you?,pronoun,1,1
+ñuqa,I,ñuqa runasimita yachakuchkani.,I'm learning Quechua.,pronoun,1,1
+pay,him/her/it,payqa Texasmanta.,he's from Texas.,pronoun,1,1
+imataq,what,imataq sutiyki?,what's your name?,interrogative,1,1
+suti,name,sutiyqa Robert,my name is Robert,noun,1,1
+maymantataq,from where,maymantataq kanki?,where are you from?,interrogative,1,1
+yachakuy,learn,Mamay españolta yachakun.,Mom is learning Spanish.,verb,1,1
+ñawiriy,read,imatataq ñawirinki?,what do you read?,verb,1,1
+watuykuy,visit,Awichata watuykuchukani.,I'm visiting Grandma.,verb,1,1
+masi,friend,awichata watuykuchkani.,I'm visiting Grandma.,noun,1,1
+tinkuy,meet,masiy awichuyta tinkun.,my friend meets my grandpa.,verb,1,1
+pitaq,who,pitaq pay?,who is she?,interrogative,2,2
+llaqta,town,pay llaqta warmichu?,is she a city-dweller?,noun,2,2
+warmi,woman,pay llaqta warmichu?,is she a city-dweller?,noun,2,2
+sipas,young woman,Rosa sipaschu?,is Rosa a young woman?,noun,2,2
+pana,a man's sister,Roberta panaykichu?,is Roberta your sister?,noun,2,2
+wawqi,a man's brother,Juan wawqiykichu?,is Juan your brother?,noun,2,2
+arí,yes,"arí, payqa wawqiy.","yes, he's my brother.",interjection,2,2
+imilla,young girl,panayki imillachu?,is your sister a young girl?,noun,2,2
+wayna,young man,tatayki waynachu?,is your father a young man?,noun,2,2
+lluqalla,young boy,lluqalla kankichu?,are you a young boy?,noun,2,2
+paya,old woman,paya españolta parlanchu?,does the old woman speak Quechua?,noun,2,2
+machu runa,old man,machu runa runasimita yachakunchu?,does the old man learn Quechua?,noun,2,2
+qhari,man,qhariqa Perusuyumanta.,the man is from Peru.,noun,2,2
+punchu,poncho,kayqa punchu.,this is a poncho.,noun,3,3
+kay,this,kay lluqalla runasimita rachakuchkanchu?,is the young boy learning Quechua?,demonstrative,3,3
+chay,that,chay wayna ñawirin.,that young man reads.,demonstrative,3,3
+jaqay,that over there,jaqay sipas mana ñawirinchu.,that young woman doesn't read.,demonstrative,3,3
+pantalun,pants,chayqa pantalun.,those are pants.,noun,3,3
+p'acha,clothes,kayqa mana warmi p'achachu.,these aren't women's clothes.,noun,3,3
+phullu,blanket,kayqa phulluchu?,is this a blanket?,noun,3,3
