@@ -9,5 +9,5 @@ The document GRAMMAR.rmd documents the grammar points and general communication 
 FUTURE GOALS:
 >Add decks with cultural items (food, clothes, architecture, etc.)
 >Export Anki files so that you can just download the decks themselves
->Add pictures to all decks
+>Add useful pictures to all decks
 >Add audio from native speakers

@@ -98,16 +98,16 @@ knitr::kable(conjugation_dfs[[1]],
 # Chapter Two
 
 ## Communication Goals
-Ask who someone is.
+  * Ask who someone is.
 
-Talk and ask about family members.
+  * Talk and ask about family members.
 
 ## Grammar Goals
-Interrogative "pi" (who)
+  * Interrogative "pi" (who)
 
-First, second, and third person possessive suffixes.
+  * First, second, and third person possessive suffixes.
 
-Present continous aspect conjugations.
+  * Present continuous aspect conjugations.
 
 ### Suffixes
 ```{r suffixes-two, include=TRUE,echo=FALSE}
@@ -124,12 +124,12 @@ knitr::kable(conjugation_dfs[[2]],
 # Chapter Three
 
 ## Communication Goals
-Ask people what a certain thing is.
+  * Ask people what a certain thing is.
 
 ## Grammar
-Demonstrative adjectives (kay, chay, jaqay).
+  * Demonstrative adjectives (kay, chay, jaqay).
 
-Form negative (mana... -chu).
+  * Form negative (mana... -chu).
 
 ### Suffixes
 ```{r suffixes-three, include=TRUE,echo=FALSE}
@@ -140,12 +140,12 @@ knitr::kable(suffix_dfs[[3]],
 # Chapter Four
 
 ## Communication Goals
-Ask someone what they are doing.
+  * Ask someone what they are doing.
 
-Tell someone what you are doing e.g. daily tasks.
+  * Tell someone what you are doing e.g. daily tasks.
 
 ## Grammar Goals
-Form subject-object-verb sentences.
+  * Form subject-object-verb sentences.
 
 ### Suffixes
 ```{r suffixes-four, include=TRUE,echo=FALSE}
@@ -156,14 +156,14 @@ knitr::kable(suffix_dfs[[4]],
 # Chapter Five (A)
 
 ## Communication Goals
-Ask someone where they come/are coming from.
+  * Ask someone where they come/are coming from.
 
-Ask how/by what method they traveled from somewhere.
+  * Ask how/by what method they traveled from somewhere.
 
 ## Grammar Goals
-First person (exclusive) plural and second person plural present tense conjugations.
+  * First person (exclusive) plural and second person plural present tense conjugations.
 
-Interrogative "imapi" (how/by what means of transport, lit. "in what").
+  * Interrogative "imapi" (how/by what means of transport, lit. "in what").
 
 ### Suffixes
 ```{r suffixes-five, include=TRUE,echo=FALSE}
@@ -177,18 +177,17 @@ knitr::kable(conjugation_dfs[[3]],
              row.names = FALSE)
 ```
 
-
 # Chapter Five (B)
 
 ## Communication Goals
-Ask how many of something there is.
+  * Ask how many of something there is.
 
 ## Grammar Goals
-Third person plural present tense conjugation.
+  * Third person plural present tense conjugation.
 
-Existential "kan".
+  * Existential "kan".
 
-Interrogative "machkha" (how many)
+  * Interrogative "machkha" (how many)
 
 ### Suffixes
 ```{r suffixes-six, include=TRUE,echo=FALSE}
@@ -201,3 +200,28 @@ knitr::kable(suffix_dfs[[6]],
 knitr::kable(conjugation_dfs[[4]],
              row.names = FALSE)
 ```
+
+# Chapter Five (B)
+
+## Communication Goals
+  * Talk about where you and people are going
+  * Talk about going somewhere and doing something
+
+## Grammar Goals
+  * Interrogative "maymantaq" (where, as in, "where are you going?)
+
+### Suffixes
+```{r suffixes-seven, include=TRUE,echo=FALSE}
+knitr::kable(suffix_dfs[[7]],
+             row.names = FALSE)
+```
+
+# Chapter Six (A)
+
+## Communication Goals
+  * 
+
+## Grammar Goals
+  * 
+
+### Suffixes
