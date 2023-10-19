@@ -31,7 +31,17 @@ q,nominalizing suffix: purposive,fiestaman tusuq rini.,I go to the fiesta to dan
 pi,"""in"" or ""on"", location in space",mayupi t'aqsachkan.,she is washing clothes in the river.,0,6,8
 wan,first person singular object and third person singular subject,nanawan,it hurts me,0,8,9
 sunki,second person singular object and third person singular subject,nansunki,it hurts you,0,8,9
-∅,third person singular object and third person singular subject,payta chirin∅,he's cold,0,8,9
+∅,third person singular object and third person singular subject (subject can be marked with -ta to be explicit),payta chirin∅,he's cold,0,8,9
 ni,epenthetic (noun ends in consonant + possessive suffix),qunqurniy,my knee,0,8,9
-puni,affirmative response,"Unqusqa kachkanki? / Arí, unqusqapuni kachkani.","Are you sick? / Yes, I'm sick.",0,8,9
-nchik,first person plural inclusive present tense,Jampiqman richkani.,We're going to the doctor.,1,8,10
+puni,affirmative response,"unqusqa kachkanki? / Arí, unqusqapuni kachkani.","Are you sick? / Yes, I'm sick.",0,8,9
+nchik,first person plural inclusive present tense,jampiqman richkani.,We're going to the doctor.,1,8,10
+ku,reflexivity,parlakuni.,I talk to myself.,0,9,10
+chi,causative,qhichwata paykunata yachachini.,I teach them Quechua.,0,9,10
+ta,adverb marker,lunesta,on Monday,0,9,10
+qa,genetive marker,Mariaqa wasin,Maria's house,0,10,11
+wan,accompaniment,Maríawan jamuni.,I came with María.,0,10,11
+wan,instrumental,qullqiwan rantikuyku.,we buy it with money.,0,10,11
+sqa,indirect past tense marker (not peronsllay witnessed or information suddenly realized or discovered),qunqasqani.,I forgot.,1,11,12
+ta,adverb marker,sumaqta,beautifully,0,11,12
+ña,"perfective aspect, already",sipasña,already a young woman,0,11,12
+raq,"imperfective aspect, still",puñunchkanraq.,he is still sleeping.,0,11,12
